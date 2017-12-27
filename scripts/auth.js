@@ -8,7 +8,7 @@ var mailboxSettingsAvailable = true;
 var ADAL = new AuthenticationContext({
     instance: 'https://login.microsoftonline.com/',
     tenant: 'b4a7cf6c-8876-456a-b97f-1e2bbeb7579a', //COMMON OR YOUR TENANT ID
-    clientId: '0ca2fffb-575d-4af8-93b3-aa148585f60b', //REPLACE WITH YOUR CLIENT ID
+    clientId: '276fc00c-fb4f-47cd-890c-230fe81d12f9', //REPLACE WITH YOUR CLIENT ID
     redirectUri: [window.location.protocol, '//', window.location.host, window.location.pathname].join(''), // THE CDN URI
     cacheLocation: isIEBrowser() ? 'localStorage' : 'sessionStorage', // enable this for IE, as sessionStorage does not work for localhost.
     //endpoints: endpoints,
