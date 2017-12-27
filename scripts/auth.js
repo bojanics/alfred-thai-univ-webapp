@@ -7,8 +7,8 @@ var mailboxSettingsAvailable = true;
 };*/
 var ADAL = new AuthenticationContext({
     instance: 'https://login.microsoftonline.com/',
-    tenant: 'b4a7cf6c-8876-456a-b97f-1e2bbeb7579a', //COMMON OR YOUR TENANT ID
-    clientId: '0b2d8b43-929e-412c-b6d4-2d536ffc1e92', //REPLACE WITH YOUR CLIENT ID
+    tenant: 'a52ca09a-09ef-4eaf-9a51-6a68b32acf5c', //COMMON OR YOUR TENANT ID
+    clientId: '5f3466b8-07aa-4c1b-a30f-b81e13c1480c', //REPLACE WITH YOUR CLIENT ID
     redirectUri: [window.location.protocol, '//', window.location.host, window.location.pathname].join(''), // THE CDN URI
     cacheLocation: isIEBrowser() ? 'localStorage' : 'sessionStorage', // enable this for IE, as sessionStorage does not work for localhost.
     //endpoints: endpoints,
